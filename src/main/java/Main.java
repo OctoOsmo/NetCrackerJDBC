@@ -13,5 +13,6 @@ public class Main {
         System.out.println("JDBC!");
         SqlStuff ss = new SqlStuff();
         ss.doSQL();
+        ss.doPreparedStatement();
     }
 }

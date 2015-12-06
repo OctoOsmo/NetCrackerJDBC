@@ -1,12 +1,11 @@
-import java.beans.Statement;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 /**
@@ -14,16 +13,18 @@ import java.util.Properties;
  */
 public class SqlStuff {
 
-    String url = "jdbc:postgresql://who.duckdns.org/NetCracker";
-    Connection conn;
+    private Connection conn;
+    private Logger log = LogManager.getLogger(SqlStuff.class);
 
     public SqlStuff(){
         Properties props = new Properties();
-        InputStream propFile = null;
+        InputStream propFile;
         try {
             propFile = new FileInputStream("JDBC_Properties.txt");
             props.load(propFile);
-            conn = DriverManager.getConnection(url, props);
+            log.info("trying to connect to database on url = " + props.getProperty("url"));
+            conn = DriverManager.getConnection(props.getProperty("url"), props);
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -33,15 +34,9 @@ public class SqlStuff {
         }
     }
 
-    public void doSQL() {
-
-        try (java.sql.Statement stmt = conn.createStatement()){
-        ResultSet rs = stmt.executeQuery("select * from url_decomposed");
-        int colsCount = rs.getMetaData().getColumnCount();
-        String tableName = rs.getMetaData().getTableName(1);
-
+    private void printUrlResultSet(ResultSet rs, int row_count) throws SQLException {
         int i = 0;
-        while (rs.next() && i <= 99){
+        while (rs.next() && i <= row_count){
             int url_id = rs.getInt("url_id");
             String raw_data = rs.getString("raw_data");
             String schema = rs.getString("schema");
@@ -53,28 +48,49 @@ public class SqlStuff {
             String parameters  = rs.getString("parameters");
             String anchor = rs.getString("anchor");
             System.out.println(rs.getString("raw_data"));
-            System.out.printf("url_id = %d" +
-                    ", schema = %s" +
+            System.out.printf("schema = %s" +
                     ", login = %s" +
                     ", password = %s" +
                     ", host = %s" +
                     ", port = %s" +
-                    "\n", url_id, schema, login, password, host, port);
+                    "\n", schema, login, password, host, port);
             i++;
         }
+    }
 
-        System.out.println("ROWS COUNT: " + colsCount);
-        System.out.println("Table name: " + tableName);
-        for (int j = 1; j < colsCount; j++) {
-            System.out.println(rs.getMetaData().getColumnLabel(j));
-        }
+    public void doSQL() {
+        log.debug("start of function");
+        try (java.sql.Statement stmt = conn.createStatement()){
+            ResultSet rs = stmt.executeQuery("select * from url_decomposed where schema = \'smb\'");
+            int colsCount = rs.getMetaData().getColumnCount();
+            String tableName = rs.getMetaData().getTableName(1);
+
+            printUrlResultSet(rs, 5);
+
+            log.debug("Table name: " + tableName);
+            log.debug("Column count = " + colsCount);
+            String colNames = "column names:";
+            for (int j = 1; j < colsCount; j++) {
+                colNames += " " + (rs.getMetaData().getColumnLabel(j));
+            }
+            log.debug(colNames);
+            log.debug("end of usual Statement");
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        log.debug("end of function");
     }
 
-    public void doPrepearedStatement(){
-//        Pre
+    public void doPreparedStatement(){
+        log.debug("start of function");
+        String sql = "select * from url_decomposed where schema = ?";
+        try(PreparedStatement ps = conn.prepareStatement(sql)){
+            ps.setString(1, "ftp");
+            ResultSet rs = ps.executeQuery();
+            printUrlResultSet(rs, 5);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        log.debug("end of function");
     }
-
 }
