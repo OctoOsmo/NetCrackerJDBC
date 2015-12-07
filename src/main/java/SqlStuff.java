@@ -34,6 +34,17 @@ public class SqlStuff {
         }
     }
 
+    private void printResultSet(ResultSet rs) throws SQLException {
+        int colCount = rs.getMetaData().getColumnCount();
+        while (rs.next()) {
+            String line = "";
+            for (int i = 1; i <= colCount; i++) {
+                line += rs.getString(i) + " ";
+            }
+            System.out.println(line);
+        }
+    }
+
     private void printUrlResultSet(ResultSet rs, int row_count) throws SQLException {
         int i = 0;
         while (rs.next() && i <= row_count){
@@ -88,6 +99,23 @@ public class SqlStuff {
             ps.setString(1, "ftp");
             ResultSet rs = ps.executeQuery();
             printUrlResultSet(rs, 5);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        log.debug("end of function");
+    }
+
+    public void doCallableStatement(){
+        log.debug("start of function");
+        String call = "{call url_max_pass_len(?, ?)}";
+        try (CallableStatement cs = conn.prepareCall(call)){
+            cs.setInt(1,0);
+            cs.setInt(2,100);
+            ResultSet rs = cs.executeQuery();
+            log.debug("printing result of callable statement");
+            rs.next();
+            rs.getInt(1);
+            log.info("max url length between 0 and 1000 url_id is " + rs.getInt(1));
         } catch (SQLException e) {
             e.printStackTrace();
         }

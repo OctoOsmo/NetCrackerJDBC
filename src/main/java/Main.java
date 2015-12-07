@@ -14,5 +14,6 @@ public class Main {
         SqlStuff ss = new SqlStuff();
         ss.doSQL();
         ss.doPreparedStatement();
+        ss.doCallableStatement();
     }
 }

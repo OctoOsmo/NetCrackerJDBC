@@ -1,0 +1,413 @@
+2015-12-06 02:29:26,319 INFO SqlStuff [main] <init> successfully connected to database 
+2015-12-06 02:29:32,747 INFO SqlStuff [main] <init> successfully connected to database 
+2015-12-06 02:29:54,527 INFO SqlStuff [main] <init> successfully connected to database 
+2015-12-06 02:32:07,154 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:37:29,625 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:37:30,399 DEBUG SqlStuff [main] doSQL ROWS COUNT: 10 
+2015-12-06 02:37:30,400 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:41:37,023 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:41:37,837 DEBUG SqlStuff [main] doSQL ROWS COUNT: 10 
+2015-12-06 02:41:37,838 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:41:37,839 DEBUG SqlStuff [main] doSQL url_id 
+2015-12-06 02:41:37,839 DEBUG SqlStuff [main] doSQL raw_data 
+2015-12-06 02:41:37,840 DEBUG SqlStuff [main] doSQL schema 
+2015-12-06 02:41:37,841 DEBUG SqlStuff [main] doSQL login 
+2015-12-06 02:41:37,841 DEBUG SqlStuff [main] doSQL password 
+2015-12-06 02:41:37,842 DEBUG SqlStuff [main] doSQL host 
+2015-12-06 02:41:37,842 DEBUG SqlStuff [main] doSQL port 
+2015-12-06 02:41:37,843 DEBUG SqlStuff [main] doSQL path 
+2015-12-06 02:41:37,843 DEBUG SqlStuff [main] doSQL parameters 
+2015-12-06 02:43:47,075 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:43:47,873 DEBUG SqlStuff [main] doSQL ROWS COUNT: 10 
+2015-12-06 02:43:47,874 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:43:47,874 DEBUG SqlStuff [main] doSQL  url_id raw_data schema login password host port path parameters 
+2015-12-06 02:44:21,457 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:44:22,279 DEBUG SqlStuff [main] doSQL ROWS COUNT: 10 
+2015-12-06 02:44:22,281 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:44:22,282 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 02:45:16,749 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:45:17,532 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 02:45:17,533 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:45:17,533 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 02:46:45,216 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:46:46,012 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:46:46,013 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 02:46:46,014 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 02:49:03,229 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:51:06,931 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:51:52,431 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker" 
+2015-12-06 02:51:53,293 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:51:53,295 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 02:51:53,296 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 02:52:57,265 INFO SqlStuff [main] <init> successfully connected to database on url = "jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 02:53:13,477 INFO SqlStuff [main] <init> successfully connected to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 02:53:14,225 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:53:14,226 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 02:53:14,226 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 02:54:05,330 INFO SqlStuff [main] <init> trying to connect to database on url = null 
+2015-12-06 02:54:06,533 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:54:06,534 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 02:54:06,535 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 02:55:18,255 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 02:55:19,392 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 02:55:19,394 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 02:55:19,395 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:13:15,440 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:13:16,547 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:13:16,549 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:13:16,549 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:16:17,757 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:16:19,083 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:16:19,084 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:16:19,084 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:16:19,085 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:18:10,023 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:18:11,516 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:18:11,536 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:18:11,537 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:18:11,537 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:23:30,363 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:23:31,525 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:23:31,526 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:23:31,527 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:23:31,528 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:23:31,561 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:23:58,108 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:23:59,302 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:23:59,303 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:23:59,304 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:23:59,305 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:23:59,334 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:24:25,587 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:24:26,729 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:24:26,730 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:24:26,731 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:24:26,732 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:24:26,761 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:25:49,115 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:25:50,457 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:25:50,458 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:25:50,459 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:25:50,459 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:25:50,492 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:25:58,462 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:25:59,652 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:25:59,653 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:25:59,654 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:25:59,655 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:25:59,685 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:26:46,300 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:26:47,320 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:26:47,321 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:26:47,322 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:26:47,322 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:26:47,352 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:27:27,121 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:27:28,166 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:27:28,167 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:27:28,168 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:27:28,168 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:27:28,417 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:28:10,298 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:28:11,343 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:28:11,344 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:28:11,345 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:28:11,346 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:28:11,578 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:28:34,888 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:28:36,013 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:28:36,014 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:28:36,015 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:28:36,016 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:28:36,246 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:28:58,663 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:28:59,746 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:28:59,747 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:28:59,748 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:28:59,749 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:28:59,780 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:29:23,714 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:29:24,722 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:29:24,723 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:29:24,724 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:29:24,725 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:29:24,805 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:35:40,808 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:35:42,053 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:35:42,054 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:35:42,054 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:35:42,055 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:35:42,298 DEBUG SqlStuff [main] doPreparedStatement end of preparedStatement 
+2015-12-06 03:37:45,760 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:37:46,430 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 03:37:47,033 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:37:47,033 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:37:47,034 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:37:47,035 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:37:47,036 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 03:37:47,036 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 03:37:47,272 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 03:39:21,929 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:39:22,303 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 03:39:22,389 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 03:39:22,390 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 03:39:22,714 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 03:40:12,004 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:40:12,495 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 03:40:12,582 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 03:40:12,583 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 03:40:12,950 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 03:40:29,131 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 03:40:29,574 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 03:40:30,013 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 03:40:30,013 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 03:40:30,014 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 03:40:30,015 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 03:40:30,015 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 03:40:30,016 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 03:40:30,285 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:27:57,563 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:27:57,806 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:27:58,156 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:27:58,157 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:27:58,157 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:27:58,157 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:27:58,158 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:27:58,158 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:27:58,383 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:28:12,835 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:28:13,031 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:28:13,367 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:28:13,367 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:28:13,367 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:28:13,368 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:28:13,368 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:28:13,368 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:28:13,615 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:28:13,616 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:28:13,638 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:28:39,411 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:28:39,649 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:28:39,980 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:28:39,980 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:28:39,981 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:28:39,981 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:28:39,981 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:28:39,981 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:28:40,222 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:28:40,222 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:28:40,239 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:29:43,843 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:29:44,061 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:29:44,407 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:29:44,408 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:29:44,408 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:29:44,408 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:29:44,409 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:29:44,409 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:29:44,643 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:29:44,643 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:29:44,662 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:29:59,063 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:29:59,253 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:29:59,570 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:29:59,570 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:29:59,571 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:29:59,571 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:29:59,571 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:29:59,572 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:30:00,318 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:30:00,318 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:30:00,337 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:30:15,514 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:30:15,709 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:30:16,043 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:30:16,043 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:30:16,044 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:30:16,044 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:30:16,044 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:30:16,044 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:30:16,876 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:30:16,876 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:30:16,910 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:30:54,881 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:30:55,129 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:30:55,436 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:30:55,437 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:30:55,437 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:30:55,437 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:30:55,438 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:30:55,438 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:30:55,672 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:30:55,673 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:30:55,690 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:35:52,845 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:35:53,043 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:35:53,377 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:35:53,378 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:35:53,378 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:35:53,378 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:35:53,379 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:35:53,379 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:35:53,612 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:35:53,612 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:35:53,620 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:37:05,571 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:37:05,789 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:37:06,117 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:37:06,118 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:37:06,118 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:37:06,118 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:37:06,118 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:37:06,118 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:37:06,340 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:37:06,341 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:37:06,357 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:37:20,577 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:37:20,793 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:37:21,114 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:37:21,115 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:37:21,115 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:37:21,116 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:37:21,116 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:37:21,116 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:37:21,347 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:37:21,347 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:37:21,353 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:37:51,303 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:37:51,494 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:37:51,804 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:37:51,804 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:37:51,805 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:37:51,805 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:37:51,805 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:37:51,806 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:37:52,029 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:37:52,030 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:37:52,041 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:38:01,027 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:38:01,219 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:38:01,573 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:38:01,573 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:38:01,573 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:38:01,574 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:38:01,574 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:38:01,574 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:38:01,822 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:38:01,823 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:38:01,831 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:38:18,720 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:38:19,151 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:38:19,560 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:38:19,560 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:38:19,560 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:38:19,561 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:38:19,561 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:38:19,561 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:38:19,888 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:38:19,888 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:38:19,897 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:38:37,322 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:38:37,513 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:38:37,832 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:38:37,832 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:38:37,832 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:38:37,833 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:38:37,833 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:38:37,833 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:38:38,062 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:38:38,062 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:38:38,069 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:39:01,895 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:39:02,108 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:39:02,445 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:39:02,446 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:39:02,446 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:39:02,446 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:39:02,447 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:39:02,447 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:39:02,692 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:39:02,693 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:39:12,675 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:39:19,928 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:39:20,165 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:39:20,534 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:39:20,535 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:39:20,535 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:39:20,535 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:39:20,536 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:39:20,536 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:39:20,768 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:39:20,768 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:39:47,911 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-06 04:40:06,593 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-06 04:40:06,818 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-06 04:40:07,204 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-06 04:40:07,205 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-06 04:40:07,205 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-06 04:40:07,205 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-06 04:40:07,206 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-06 04:40:07,206 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-06 04:40:07,502 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-06 04:40:07,502 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-06 04:40:07,510 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-07 03:33:42,763 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-07 03:33:43,475 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-07 03:33:44,967 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-07 03:33:44,968 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-07 03:33:44,969 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-07 03:33:44,969 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-07 03:33:44,970 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-07 03:33:44,970 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-07 03:33:45,223 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-07 03:33:45,332 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-07 03:33:45,333 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-07 03:40:28,832 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-07 03:40:29,330 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-07 03:40:29,776 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-07 03:40:29,777 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-07 03:40:29,778 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-07 03:40:29,779 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-07 03:40:29,779 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-07 03:40:29,780 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-07 03:40:30,034 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-07 03:40:30,035 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-07 03:40:30,063 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-07 03:40:30,064 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-07 03:41:04,950 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-07 03:41:05,343 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-07 03:41:05,753 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-07 03:41:05,755 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-07 03:41:05,755 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-07 03:41:05,756 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-07 03:41:05,757 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-07 03:41:05,757 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-07 03:41:06,002 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-07 03:41:06,003 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-07 03:41:06,022 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-07 03:41:06,024 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-07 03:41:25,000 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-07 03:41:25,368 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-07 03:41:25,782 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-07 03:41:25,783 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-07 03:41:25,784 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-07 03:41:25,784 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-07 03:41:25,785 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-07 03:41:25,785 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-07 03:41:26,026 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-07 03:41:26,027 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-07 03:41:26,050 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-07 03:41:26,051 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-07 03:55:31,055 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-07 03:55:31,286 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-07 03:55:31,619 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-07 03:55:31,620 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-07 03:55:31,620 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-07 03:55:31,620 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-07 03:55:31,621 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-07 03:55:31,621 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-07 03:55:31,850 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-07 03:55:31,850 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-07 03:55:31,870 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-07 03:55:31,871 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-07 03:55:31,871 DEBUG SqlStuff [main] doCallableStatement end of function 
