@@ -1,5 +1,7 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.Marker;
+import org.apache.logging.log4j.MarkerManager;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,9 +16,9 @@ import java.util.Properties;
 public class SqlStuff {
 
     private Connection conn;
-    private Logger log = LogManager.getLogger(SqlStuff.class);
+    final Logger log = LogManager.getLogger(SqlStuff.class);
 
-    public SqlStuff(){
+    public SqlStuff() throws SQLException {
         Properties props = new Properties();
         InputStream propFile;
         try {
@@ -24,13 +26,13 @@ public class SqlStuff {
             props.load(propFile);
             log.info("trying to connect to database on url = " + props.getProperty("url"));
             conn = DriverManager.getConnection(props.getProperty("url"), props);
-
+            log.info("Connection established");
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            log.error("Failed to find connection properties file");
+            throw new SQLException(e);
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
+            log.error("Failed read connection properties file");
+            throw new SQLException(e);
         }
     }
 
@@ -69,7 +71,7 @@ public class SqlStuff {
         }
     }
 
-    public void doSQL() {
+    public void doSQL() throws SQLException {
         log.debug("start of function");
         try (java.sql.Statement stmt = conn.createStatement()){
             ResultSet rs = stmt.executeQuery("select * from url_decomposed where schema = \'smb\'");
@@ -87,12 +89,13 @@ public class SqlStuff {
             log.debug(colNames);
             log.debug("end of usual Statement");
         } catch (SQLException e) {
-            e.printStackTrace();
+            log.error("Error in SQL statement");
+            throw e;
         }
         log.debug("end of function");
     }
 
-    public void doPreparedStatement(){
+    public void doPreparedStatement() throws SQLException {
         log.debug("start of function");
         String sql = "select * from url_decomposed where schema = ?";
         try(PreparedStatement ps = conn.prepareStatement(sql)){
@@ -100,12 +103,13 @@ public class SqlStuff {
             ResultSet rs = ps.executeQuery();
             printUrlResultSet(rs, 5);
         } catch (SQLException e) {
-            e.printStackTrace();
+            log.error("Error in SQL prepared statement");
+            throw e;
         }
         log.debug("end of function");
     }
 
-    public void doCallableStatement(){
+    public void doCallableStatement() throws SQLException {
         log.debug("start of function");
         String call = "{call url_max_pass_len(?, ?)}";
         try (CallableStatement cs = conn.prepareCall(call)){
@@ -117,7 +121,8 @@ public class SqlStuff {
             rs.getInt(1);
             log.info("max url length between 0 and 1000 url_id is " + rs.getInt(1));
         } catch (SQLException e) {
-            e.printStackTrace();
+            log.error("Error in SQL callable statement");
+            throw e;
         }
         log.debug("end of function");
     }

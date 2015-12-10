@@ -55,3 +55,109 @@
 2015-12-07 03:41:25,000 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
 2015-12-07 03:55:31,055 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
 2015-12-07 03:55:31,871 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-07 17:46:02,685 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-07 17:46:08,461 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-09 20:48:30,568 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-09 20:48:41,744 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 03:10:27,623 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:10:35,960 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 03:10:58,105 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:20:52,315 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:20:52,360 ERROR Main [main] main Faild to establish connection to database 
+2015-12-10 03:25:10,540 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:25:10,573 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:25:56,114 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:28:40,542 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:28:40,573 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:29:55,248 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:29:55,281 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:35:42,095 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:35:42,124 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:36:50,979 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:36:51,012 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:38:42,496 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:38:42,529 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:52:06,822 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:52:06,866 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:52:36,191 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:52:36,223 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:53:03,982 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:53:04,620 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:53:06,148 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 03:53:57,928 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:53:58,297 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:53:58,298 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:53:58,300 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:55:10,743 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:55:11,106 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:55:11,108 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:55:11,110 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:55:28,696 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:55:29,177 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:55:29,179 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:55:29,182 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:55:47,583 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:55:47,962 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:55:47,964 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:55:47,966 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:56:07,917 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:56:08,291 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:56:08,292 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:56:08,294 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:57:13,725 INFO SqlStuff [main] SqlStuff <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:57:14,086 INFO SqlStuff [main] SqlStuff <init> Connection established 
+2015-12-10 03:57:14,087 ERROR SqlStuff [main] SqlStuff <init> Failed read connection properties file 
+2015-12-10 03:57:14,089 ERROR Main [main] Main main Issue with connection to database 
+2015-12-10 03:57:53,459 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:57:53,900 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:57:53,901 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:57:53,904 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:58:30,368 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:58:30,946 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:58:30,947 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:58:30,950 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:58:45,248 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:58:45,610 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:58:45,611 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:58:45,613 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:59:20,273 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:59:20,656 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:59:20,657 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:59:20,659 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:59:29,937 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:59:30,296 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:59:30,297 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:59:30,299 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:59:44,125 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:59:44,528 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:59:44,530 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:59:44,532 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:00:12,291 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:00:12,670 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:00:12,672 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:00:12,673 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:03:47,451 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:03:47,486 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:04:06,288 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:04:06,319 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:04:25,854 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:04:25,887 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:05:36,817 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:05:36,858 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:05:53,999 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:05:54,033 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:07:00,238 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:07:00,643 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:07:01,473 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:12:45,462 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:12:46,129 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:12:46,867 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:14:48,475 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:14:48,916 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:14:49,631 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:15:15,794 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:15:16,183 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:15:16,869 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:28:53,157 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:28:53,476 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:28:54,169 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 

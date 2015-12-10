@@ -411,3 +411,210 @@
 2015-12-07 03:55:31,870 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
 2015-12-07 03:55:31,871 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
 2015-12-07 03:55:31,871 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-07 17:46:02,685 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-07 17:46:02,984 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-07 17:46:07,287 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-07 17:46:07,287 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-07 17:46:07,288 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-07 17:46:07,288 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-07 17:46:07,289 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-07 17:46:07,289 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-07 17:46:08,335 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-07 17:46:08,335 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-07 17:46:08,460 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-07 17:46:08,461 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-07 17:46:08,462 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-09 20:48:30,568 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-09 20:48:31,856 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-09 20:48:41,092 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-09 20:48:41,093 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-09 20:48:41,094 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-09 20:48:41,095 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-09 20:48:41,095 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-09 20:48:41,096 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-09 20:48:41,466 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-09 20:48:41,467 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-09 20:48:41,743 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-09 20:48:41,744 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-09 20:48:41,745 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-10 03:10:27,623 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:10:28,881 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 03:10:35,382 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-10 03:10:35,382 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-10 03:10:35,383 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-10 03:10:35,383 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-10 03:10:35,384 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-10 03:10:35,384 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-10 03:10:35,671 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-10 03:10:35,672 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-10 03:10:35,959 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-10 03:10:35,960 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 03:10:35,963 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-10 03:10:58,105 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:10:58,156 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 03:20:52,315 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:20:52,360 ERROR Main [main] main Faild to establish connection to database 
+2015-12-10 03:25:10,540 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:25:10,573 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:25:56,114 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:25:56,120 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 03:28:40,542 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:28:40,573 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:29:55,248 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:29:55,281 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:35:42,095 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:35:42,124 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:36:50,979 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:36:51,012 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:38:42,496 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:38:42,529 ERROR Main [main] main Failed to establish connection to database 
+2015-12-10 03:52:06,822 ERROR SqlStuff [main] <init> Failed to find connection properties file 
+2015-12-10 03:52:06,866 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:52:36,191 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:52:36,223 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:53:03,982 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:53:04,620 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:53:04,621 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 03:53:05,747 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-10 03:53:05,748 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-10 03:53:05,748 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-10 03:53:05,749 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-10 03:53:05,750 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-10 03:53:05,751 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-10 03:53:06,123 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-10 03:53:06,124 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-10 03:53:06,147 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-10 03:53:06,148 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 03:53:06,149 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-10 03:53:57,928 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:53:58,297 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:53:58,298 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:53:58,300 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:55:10,743 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:55:11,106 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:55:11,108 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:55:11,110 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:55:28,696 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:55:29,177 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:55:29,179 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:55:29,182 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:55:47,583 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:55:47,962 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:55:47,964 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:55:47,966 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:56:07,917 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:56:08,291 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:56:08,292 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:56:08,294 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:57:13,725 INFO SqlStuff [main] SqlStuff <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:57:14,086 INFO SqlStuff [main] SqlStuff <init> Connection established 
+2015-12-10 03:57:14,087 ERROR SqlStuff [main] SqlStuff <init> Failed read connection properties file 
+2015-12-10 03:57:14,089 ERROR Main [main] Main main Issue with connection to database 
+2015-12-10 03:57:53,459 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:57:53,900 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:57:53,901 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:57:53,904 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:58:30,368 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:58:30,946 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:58:30,947 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:58:30,950 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:58:45,248 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:58:45,610 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:58:45,611 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:58:45,613 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:59:20,273 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:59:20,656 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:59:20,657 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:59:20,659 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:59:29,937 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:59:30,296 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:59:30,297 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:59:30,299 ERROR Main [main] main Issue with connection to database 
+2015-12-10 03:59:44,125 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 03:59:44,528 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 03:59:44,530 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 03:59:44,532 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:00:12,291 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:00:12,670 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:00:12,672 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:00:12,673 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:03:47,451 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:03:47,486 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:04:06,288 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:04:06,319 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:04:25,854 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:04:25,887 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:05:36,817 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:05:36,858 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:05:53,999 ERROR SqlStuff [main] <init> Failed read connection properties file 
+2015-12-10 04:05:54,033 ERROR Main [main] main Issue with connection to database 
+2015-12-10 04:07:00,238 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:07:00,643 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:07:00,644 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 04:07:01,196 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-10 04:07:01,197 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-10 04:07:01,198 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-10 04:07:01,199 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-10 04:07:01,199 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-10 04:07:01,200 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-10 04:07:01,452 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-10 04:07:01,453 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-10 04:07:01,472 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-10 04:07:01,473 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:07:01,474 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-10 04:12:45,462 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:12:46,129 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:12:46,130 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 04:12:46,573 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-10 04:12:46,574 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-10 04:12:46,574 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-10 04:12:46,575 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-10 04:12:46,576 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-10 04:12:46,577 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-10 04:12:46,843 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-10 04:12:46,843 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-10 04:12:46,866 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-10 04:12:46,867 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:12:46,868 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-10 04:14:48,475 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:14:48,916 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:14:48,918 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 04:14:49,337 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-10 04:14:49,338 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-10 04:14:49,339 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-10 04:14:49,339 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-10 04:14:49,340 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-10 04:14:49,340 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-10 04:14:49,606 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-10 04:14:49,607 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-10 04:14:49,630 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-10 04:14:49,631 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:14:49,632 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-10 04:15:15,794 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:15:16,183 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:15:16,184 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 04:15:16,588 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-10 04:15:16,588 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-10 04:15:16,589 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-10 04:15:16,590 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-10 04:15:16,591 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-10 04:15:16,591 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-10 04:15:16,833 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-10 04:15:16,834 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-10 04:15:16,868 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-10 04:15:16,869 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:15:16,870 DEBUG SqlStuff [main] doCallableStatement end of function 
+2015-12-10 04:28:53,157 INFO SqlStuff [main] <init> trying to connect to database on url = jdbc:postgresql://who.duckdns.org/NetCracker 
+2015-12-10 04:28:53,476 INFO SqlStuff [main] <init> Connection established 
+2015-12-10 04:28:53,477 DEBUG SqlStuff [main] doSQL start of function 
+2015-12-10 04:28:53,866 DEBUG SqlStuff [main] doSQL Table name: url_decomposed 
+2015-12-10 04:28:53,867 DEBUG SqlStuff [main] doSQL Column count = 10 
+2015-12-10 04:28:53,867 DEBUG SqlStuff [main] doSQL column names: url_id raw_data schema login password host port path parameters 
+2015-12-10 04:28:53,868 DEBUG SqlStuff [main] doSQL end of usual Statement 
+2015-12-10 04:28:53,868 DEBUG SqlStuff [main] doSQL end of function 
+2015-12-10 04:28:53,870 DEBUG SqlStuff [main] doPreparedStatement start of function 
+2015-12-10 04:28:54,143 DEBUG SqlStuff [main] doPreparedStatement end of function 
+2015-12-10 04:28:54,144 DEBUG SqlStuff [main] doCallableStatement start of function 
+2015-12-10 04:28:54,168 DEBUG SqlStuff [main] doCallableStatement printing result of callable statement 
+2015-12-10 04:28:54,169 INFO SqlStuff [main] doCallableStatement max url length between 0 and 1000 url_id is 15 
+2015-12-10 04:28:54,169 DEBUG SqlStuff [main] doCallableStatement end of function 
