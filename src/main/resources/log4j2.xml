@@ -13,12 +13,12 @@
         </File>
         <File name="fileErrors" fileName="Error.log">
             <PatternLayout>
-                <Pattern>%d %p %c{1.} [%t] %M %m %ex%n</Pattern>
+                <Pattern>[%file:%line] %d %p %c{1.} [%t] %M %m %ex%n</Pattern>
             </PatternLayout>
         </File>
         <Console name="STDOUT" target="SYSTEM_OUT">
             <PatternLayout>
-                <Pattern>%c{1.} %M ~~~ %m %ex%n</Pattern>
+                <Pattern>[%file:%line] %c{1.} %M ~~~ %m %ex%n</Pattern>
             </PatternLayout>
         </Console>
     </Appenders>

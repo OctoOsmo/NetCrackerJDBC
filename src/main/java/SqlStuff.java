@@ -1,7 +1,5 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.Marker;
-import org.apache.logging.log4j.MarkerManager;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,24 +14,38 @@ import java.util.Properties;
 public class SqlStuff {
 
     private Connection conn;
+    private String propertiesPath = "";
     final Logger log = LogManager.getLogger(SqlStuff.class);
 
+    public SqlStuff(String propertiesPath) throws SQLException {
+        this.propertiesPath = propertiesPath;
+        connInit();
+    }
+
     public SqlStuff() throws SQLException {
-        Properties props = new Properties();
-        InputStream propFile;
-        try {
-            propFile = new FileInputStream("JDBC_Properties.txt");
+        this("JDBC_Properties.txt");
+    }
+
+    private void connInit() throws SQLException {
+
+        try (InputStream propFile = new FileInputStream(propertiesPath)){
+            Properties props = new Properties();
             props.load(propFile);
             log.info("trying to connect to database on url = " + props.getProperty("url"));
             conn = DriverManager.getConnection(props.getProperty("url"), props);
             log.info("Connection established");
-        } catch (FileNotFoundException e) {
-            log.error("Failed to find connection properties file");
-            throw new SQLException(e);
-        } catch (IOException e) {
-            log.error("Failed read connection properties file");
-            throw new SQLException(e);
+        } catch (IOException|SQLException e){
+            log.error(e.getMessage());
+            throw new SQLException("Connection failure", e);
         }
+    }
+
+    public String getPropertiesPath() {
+        return propertiesPath;
+    }
+
+    public void setPropertiesPath(String propertiesPath) {
+        this.propertiesPath = propertiesPath;
     }
 
     private void printResultSet(ResultSet rs) throws SQLException {
@@ -87,10 +99,10 @@ public class SqlStuff {
                 colNames += " " + (rs.getMetaData().getColumnLabel(j));
             }
             log.debug(colNames);
-            log.debug("end of usual Statement");
+            log.debug("End of SQL statement");
         } catch (SQLException e) {
-            log.error("Error in SQL statement");
-            throw e;
+            log.error(e.getMessage());
+            throw new SQLException("Unexpected statement error", e);
         }
         log.debug("end of function");
     }
@@ -103,8 +115,8 @@ public class SqlStuff {
             ResultSet rs = ps.executeQuery();
             printUrlResultSet(rs, 5);
         } catch (SQLException e) {
-            log.error("Error in SQL prepared statement");
-            throw e;
+            log.error(e.getMessage());
+            throw new SQLException("Unexpected prepared statement error", e);
         }
         log.debug("end of function");
     }
@@ -121,8 +133,8 @@ public class SqlStuff {
             rs.getInt(1);
             log.info("max url length between 0 and 1000 url_id is " + rs.getInt(1));
         } catch (SQLException e) {
-            log.error("Error in SQL callable statement");
-            throw e;
+            log.error(e.getMessage());
+            throw new SQLException("Unexpected callable statement error", e);
         }
         log.debug("end of function");
     }
