@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3963421852">
+  <component name="DataSourceManagerImpl" format="xml" hash="340865409">
     <data-source source="LOCAL" name="PostgreSQL - NetCracker@who.duckdns.org" uuid="21df45eb-b79d-4d5c-805e-ed2c4c8b1bc2">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>

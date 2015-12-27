@@ -1,65 +1,21 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
 import java.sql.*;
-import java.util.Properties;
 
 /**
  * Created by al on 03.12.2015.
  */
 public class SqlStuff {
 
-    private Connection conn;
-    private String propertiesPath = "";
     final Logger log = LogManager.getLogger(SqlStuff.class);
+    private Connection conn;
 
-    public SqlStuff(String propertiesPath) throws SQLException {
-        this.propertiesPath = propertiesPath;
-        connInit();
+    public SqlStuff(Connection conn){
+        this.conn = conn;
     }
 
-    public SqlStuff() throws SQLException {
-        this("JDBC_Properties.txt");
-    }
-
-    private void connInit() throws SQLException {
-
-        try (InputStream propFile = new FileInputStream(propertiesPath)){
-            Properties props = new Properties();
-            props.load(propFile);
-            log.info("trying to connect to database on url = " + props.getProperty("url"));
-            conn = DriverManager.getConnection(props.getProperty("url"), props);
-            log.info("Connection established");
-        } catch (IOException|SQLException e){
-            log.error(e.getMessage());
-            throw new SQLException("Connection failure", e);
-        }
-    }
-
-    public String getPropertiesPath() {
-        return propertiesPath;
-    }
-
-    public void setPropertiesPath(String propertiesPath) {
-        this.propertiesPath = propertiesPath;
-    }
-
-    private void printResultSet(ResultSet rs) throws SQLException {
-        int colCount = rs.getMetaData().getColumnCount();
-        while (rs.next()) {
-            String line = "";
-            for (int i = 1; i <= colCount; i++) {
-                line += rs.getString(i) + " ";
-            }
-            System.out.println(line);
-        }
-    }
-
-    private void printUrlResultSet(ResultSet rs, int row_count) throws SQLException {
+    private void printResultSet(ResultSet rs, int row_count) throws SQLException {
         int i = 0;
         while (rs.next() && i <= row_count){
             int url_id = rs.getInt("url_id");
@@ -90,7 +46,7 @@ public class SqlStuff {
             int colsCount = rs.getMetaData().getColumnCount();
             String tableName = rs.getMetaData().getTableName(1);
 
-            printUrlResultSet(rs, 5);
+            printResultSet(rs, 5);
 
             log.debug("Table name: " + tableName);
             log.debug("Column count = " + colsCount);
@@ -113,7 +69,7 @@ public class SqlStuff {
         try(PreparedStatement ps = conn.prepareStatement(sql)){
             ps.setString(1, "ftp");
             ResultSet rs = ps.executeQuery();
-            printUrlResultSet(rs, 5);
+            printResultSet(rs, 5);
         } catch (SQLException e) {
             log.error(e.getMessage());
             throw new SQLException("Unexpected prepared statement error", e);
