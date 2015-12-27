@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
         final Logger log = LogManager.getLogger(Main.class);
 
-        try (InputStream propFile = new FileInputStream("JDBC_Properties.txt")){
+        try (InputStream propFile = new FileInputStream("JDBC_Properties.txt");){
             Properties props = new Properties();
             props.load(propFile);
             log.info("trying to connect to database on url = " + props.getProperty("url"));
